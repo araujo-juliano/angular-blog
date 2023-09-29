@@ -1,21 +1,15 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
-      height="200px"
-      alt=""
-      srcset=""
-    />
+    <img src="{{ photoCover }}" height="200px" alt="" srcset="" />
   </div>
   <div class="big-card__title">
     <h1>
-      <a href="#"> Titulo para verificação do projeto </a>
+      <a href="#"> {{ cardTitle }} </a>
     </h1>
   </div>
   <div class="big-card__description">
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam porro ipsa
-      debitis sequi quasi! Fugit laudantium, ut doloribus nam perspiciatis.
+      {{ cardDescription }}
     </p>
   </div>
 </div>
