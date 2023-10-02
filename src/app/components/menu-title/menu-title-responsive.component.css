@@ -1,0 +1,11 @@
+@media (max-width: 360px){
+  .container__menu-title > h1 {
+    font-size: 2.5rem;
+  }
+ }
+
+ @media (min-width: 361px) and (max-width: 768px){
+  .container__menu-title > h1 {
+    font-size: 4.063rem;
+  }
+ }

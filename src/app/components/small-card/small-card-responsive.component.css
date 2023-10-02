@@ -1,0 +1,28 @@
+@media (max-width: 360px){
+  .container__small-card {
+    width: 21.25rem;
+    margin-inline: 0.625rem;
+  }
+  .small-card__photo > img {
+    width: 9.375rem;
+  }
+  .small-card__title {
+    font-size: 0.75rem;
+  }
+ }
+@media (min-width: 361px) and (max-width: 768px){
+  .container__small-card {
+    width: 44.375rem;
+    margin-inline: 0.625rem;
+  }
+
+  .small-card__title {
+    font-size: 0.938rem;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1400px){
+  .container__small-card {
+    width: 28.125rem;
+    margin-inline: 0.625rem;
+  }
+}

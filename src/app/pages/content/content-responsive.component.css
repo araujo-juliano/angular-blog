@@ -1,0 +1,33 @@
+@media (max-width: 360px){
+  .container__content {
+    width: 21.25rem;
+    margin: auto;
+  }
+  .content__cover > img {
+    width: 20rem;
+    box-shadow: 0.25rem 0.188rem 0.5rem 0px rgba(255,255,255,0.63);
+    -webkit-box-shadow: 0.25rem 0.188rem 0.5rem 0px rgba(255,255,255,0.63);
+    -moz-box-shadow: 0.25rem 0.188rem 0.5rem 0px rgba(255,255,255,0.63);
+  }
+  .content__title {
+    margin-inline: 0.625rem;
+  }
+  .content__description {
+    width: 20rem;
+  }
+ }
+@media (min-width: 361px) and (max-width: 768px){
+  .container__content {
+    margin: auto;
+  }
+  .content__title {
+    width: 37.5rem;
+  }
+
+  .content__cover > img {
+    width: 31.25rem;
+  }
+  .content__description {
+    width: 34.375rem;
+  }
+}

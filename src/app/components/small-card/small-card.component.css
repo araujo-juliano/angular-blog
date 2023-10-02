@@ -1,6 +1,6 @@
 .container__small-card {
-  width: 700px;
-  margin-bottom: 15px;
+  width: 43.75rem;
+  margin-bottom: 0.938rem;
 }
 
 .container__small-card-content {
@@ -8,9 +8,12 @@
 }
 
 .small-card__photo > img {
-  width: 200px;
-  min-width: 200px;
-  margin-right: 20px;
+  width: 12.5rem;
+  border-radius: 0.625rem;
+  margin-right: 1.25rem;
+  box-shadow: 0.188rem 0.188rem 0.375rem 0px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0.188rem 0.188rem 0.375rem 0px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0.188rem 0.188rem 0.375rem 0px rgba(255,255,255,0.75);
 }
 
 .small-card__title {
@@ -19,5 +22,5 @@
   align-items: center;
 }
 .container__small-card-separator {
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }

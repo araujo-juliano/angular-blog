@@ -1,0 +1,9 @@
+@media (max-width: 1020px){
+  .container__articles {
+    flex-direction: column;
+  }
+  .container__articles-footer {
+    flex-direction: column;
+  }
+}
+

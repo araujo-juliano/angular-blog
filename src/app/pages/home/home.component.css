@@ -1,5 +1,19 @@
 .container__articles {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   display: flex;
   justify-content: center;
+}
+
+.container__articles-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.articles__separator {
+  margin: 1.563rem;
+  text-align: center;
+}
+
+.articles__separator > h2 {
+  margin-bottom: 0.625rem;
 }
